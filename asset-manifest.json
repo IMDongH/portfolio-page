@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio-page/static/css/main.2002a863.css",
-    "main.js": "/portfolio-page/static/js/main.9a78e031.js",
+    "main.css": "/portfolio-page/static/css/main.20659875.css",
+    "main.js": "/portfolio-page/static/js/main.91b1c0c8.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio-page/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/portfolio-page/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/portfolio-page/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/quoraLogo.png": "/portfolio-page/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
-    "static/media/developerActivity.svg": "/portfolio-page/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/googleAssistantLogo.webp": "/portfolio-page/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/IndustrialSafetyLogo.jpg": "/portfolio-page/static/media/IndustrialSafetyLogo.23c8dfbe64841ee3df61.jpg",
+    "static/media/smart.jpeg": "/portfolio-page/static/media/smart.7a394b992e4f9b5ea049.jpeg",
     "static/media/facebookLogo.png": "/portfolio-page/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
-    "static/media/codeInLogo.webp": "/portfolio-page/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
-    "static/media/pwaLogo.webp": "/portfolio-page/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "static/media/Image_RunningLogo.png": "/portfolio-page/static/media/Image_RunningLogo.0b7697aeea41248e852a.png",
+    "static/media/spotcast.png": "/portfolio-page/static/media/spotcast.c3bf207c03797b558796.png",
     "static/media/saayaHealthLogo.webp": "/portfolio-page/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
     "static/media/nextuLogo.webp": "/portfolio-page/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/portfolio-page/index.html",
-    "main.2002a863.css.map": "/portfolio-page/static/css/main.2002a863.css.map",
-    "main.9a78e031.js.map": "/portfolio-page/static/js/main.9a78e031.js.map"
+    "static/media/developerActivity.svg": "/portfolio-page/static/media/developerActivity.9b1b590a84e813de8c66a47edec75883.svg",
+    "main.20659875.css.map": "/portfolio-page/static/css/main.20659875.css.map",
+    "main.91b1c0c8.js.map": "/portfolio-page/static/js/main.91b1c0c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2002a863.css",
-    "static/js/main.9a78e031.js"
+    "static/css/main.20659875.css",
+    "static/js/main.91b1c0c8.js"
   ]
 }
