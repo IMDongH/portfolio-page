@@ -19,11 +19,11 @@ const Main = () => {
     <div className={"dark-mode"}>
       <StyleProvider value={{isDark}}>
         
-            <Header />
+            {/* <Header /> */}
             <Greeting />
             <Skills />
             <Education />
-            <WorkExperience />
+            {/* <WorkExperience /> */}
 
             <Achievement />
             <ScrollToTopButton />

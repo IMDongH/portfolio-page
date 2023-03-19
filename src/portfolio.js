@@ -20,13 +20,11 @@ const illustration = {
 };
 
 const greeting = {
-  username: "IM DONG HYEOK",
-  title: "Hi all, I'm IM DONG HYEOK",
+  username: "",
+  title: "독수리오남매 셋째, 저는 임동혁입니다.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "저는 Backend engineer에 관심이 생겨서 서버 관련 내용을 열심히 공부하고 있습니다. 🚀 최근에는 spring boot로 프로젝트를 진행하며 공부하고 있으며 Infra 관련 지식도 열심히 공부하고 있습니다."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,15 +42,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Skills",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "최종적으로는 Full-Stack 개발자가 되는 것이 목표입니다.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji(
+    //   "⚡ React-native 와 node js 를 사용해서 "
+    // ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -91,12 +89,21 @@ const educationInfo = {
     {
       schoolName: "gachon University",
       logo: require("./assets/images/gachon.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "소프트웨어학과",
+      duration: "2018.03 ~ ",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
+      ]
+    },
+    {
+      schoolName: "가천 카카오엔터프라이즈 SW아카데미",
+      logo: require("./assets/images/gachon.png"),
+      subHeader: "Team - 독수리 오남매",
+      duration: "2023.03 ~ ",
+      desc: "",
+      descBullets: [
+        
       ]
     }
   ]
@@ -194,56 +201,58 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Experiences And Achievements🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "그동안 수행했던 프로젝트들과 수상 내역 입니다.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "스마트 물류 공모전",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "스마트 물류 시스템을 위한 효율적인 실내 배송 로봇 오류 복구 기법",
+      image: require("./assets/images/smart.jpeg"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "우수상 수상",
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "SPOTCAST",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "예체능 관련 종사자들의 구인 구직 및 포트폴리오 관리를 도와주는 커뮤니티입니다.",
+      image: require("./assets/images/spotcast.png"),
+      
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Backend develop",
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "전국 마라톤 협회 앱 개발",
+      subtitle: "마라톤 신청 및 마라토너들의 스마트 워치를 활용해 전달받은 데이터를 확인할 수 있도록 도와주는 앱 입니다.",
+      image: require("./assets/images/Image_RunningLogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "react native",
+        },{
+          name: "node js",
+        }
+      ]
+    }
+    ,
+
+    {
+      title: "안전보건 관리 솔루션 앱 개발",
+      subtitle: "근로자 안전보건 관리를 위해 관리자가 근로자들의 상태를 파악할 수 있는 앱입니다.",
+      image: require("./assets/images/IndustrialSafetyLogo.jpg"),
+      footerLink: [
+        {
+          name: "react native",
+        },{
+          name: "node js",
         }
       ]
     }

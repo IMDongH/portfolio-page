@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
+import developerActivity from "../../assets/images/developerActivity.svg"
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {
@@ -22,8 +22,9 @@ export default function Skills() {
             ) : (
               <img
                 alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
+                src={require(developerActivity)}
               ></img>
+              
             )}
           </div>
         </Fade>
